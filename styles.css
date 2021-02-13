@@ -79,12 +79,15 @@ body{
 }
 .card {
     padding-top: 16px;
+    transition: all 0.6s linear;
 }
 .card_img {
     margin: 0px;
+    background-color: #757575;
 }
 .card_decription {
     padding: 0px;
+    background-color: #757575;
 }
 .card_title {
     font-family: Roboto;
