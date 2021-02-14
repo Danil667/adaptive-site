@@ -19,10 +19,12 @@ body{
     right: 0px;
     left: 0px;
     flex:1 1 auto;
+    max-height: 72px;
     background: #FFFFFF;
     box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
 }
 .header_row {
+    max-height: 72px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -120,6 +122,7 @@ body{
 footer{
     background: #262626;
     margin-top: 77px;
+    flex: 0 0 auto;
 }
 .head_uber {
     padding: 56px 0px 35px 0px;
