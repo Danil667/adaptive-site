@@ -118,7 +118,53 @@ body{
     padding-bottom: 21px;
 }
 footer{
-    background: #262626;;
+    background: #262626;
+    margin-top: 64px;
+}
+.head_uber {
+    padding: 56px 0px 40px 0px;
+}
+.any_links {
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    width:318px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+li{
+    list-style: none;
+    margin-left:0px!important;
+}
+.block1 {
+    width:318px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.block2 {
+    width:318px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+.app_links {
+    display: flex;
+    justify-content: center;
+}
+.footer_end {
+    display: flex;
+    justify-content: space-between;
+}
+.content_end {
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .container{
