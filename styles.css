@@ -119,34 +119,36 @@ body{
 }
 footer{
     background: #262626;
-    margin-top: 64px;
+    margin-top: 77px;
 }
 .head_uber {
-    padding: 56px 0px 40px 0px;
+    padding: 56px 0px 35px 0px;
 }
 .any_links {
     display: flex;
     justify-content: space-between;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #FFFFFF;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ffffff67;
 }
 a{
-    width:318px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+ul{
+    list-style: none;
+    padding: 0px;
+    margin-left:5px;
 }
 li{
-    list-style: none;
-    margin-left:0px!important;
-}
-.block1 {
-    width:318px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 15px;
+    
+    padding-bottom: 23px;
 }
 .block2 {
     width:318px;
@@ -159,20 +161,60 @@ li{
 .app_links {
     display: flex;
     justify-content: center;
+    padding: 40px 0px;
+    border-top: 1px solid #ffffff67;
+    border-bottom: 1px solid #ffffff67;
+}
+.img_apple{
+    margin-right: 41px
 }
 .footer_end {
     display: flex;
     justify-content: space-between;
 }
 .content_end {
+    width: 318px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    margin: 40px 0px;
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
     .container{
         width: 768px;
     }
+    .card {
+        width: 380px;
+        
+    }
+    img{
+        width: 100%;
+    }
 }
-@media only screen and (min-width : 320px) and (max-width : 767px) {
+@media (max-width : 767px) {
     .container{
         width: 320px;
+    }
+    footer{
+        background: #262626;
+        margin-top: 68px;
+    }
+    .any_links {
+        flex-wrap: wrap;
+    }
+    .footer_end{
+        flex-wrap: wrap;
+        padding: 40px 0px;
+    }
+    .content_end {
+        width: 304px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 24px;
     }
 }
