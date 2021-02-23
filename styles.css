@@ -36,8 +36,11 @@ body{
    display: flex;
    align-items: center;
 }
-
+.hidden{
+    display: none;
+}
 .btn{
+    cursor: pointer;
     width: 78px;
     height: 40px;
     border: 1px solid #E0E0E0;
@@ -55,6 +58,7 @@ body{
     display: flex;
     align-items: normal;
 }
+
 .search_input{
     flex:1 1 auto; /*растягивает и сжимает флекс-элемент относительно его собственной ширины*/
     padding:0 7px;
@@ -70,6 +74,7 @@ body{
     padding-left: 0px;
     background-color: #F2F2F2;
 }
+
 .content {
     display: flex;
     justify-content: space-between;
@@ -220,4 +225,28 @@ li{
         line-height: 13px;
         margin-bottom: 24px;
     }
+}
+
+/*
+Ресторан
+*/
+
+.restimg{
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+.img__eat
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
 }
